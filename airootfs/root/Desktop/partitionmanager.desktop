@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=KDE Partition Manager
+Comment=Manage disks and partitions
+Exec=partitionmanager
+Icon=partitionmanager
+Terminal=false
+Categories=System;Filesystem;

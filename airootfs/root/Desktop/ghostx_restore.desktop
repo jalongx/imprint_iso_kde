@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=GhostX Restore
+Exec=/usr/local/bin/ghostxr
+Icon=drive-harddisk
+Terminal=false
+Categories=Utility;

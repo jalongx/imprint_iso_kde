@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Konsole
+Comment=KDE Terminal Emulator
+Exec=konsole
+Icon=utilities-terminal
+Terminal=false
+Categories=System;TerminalEmulator;

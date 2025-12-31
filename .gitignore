@@ -1,0 +1,16 @@
+# ArchISO build artifacts
+work/
+out/
+*.iso
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Cache
+.cache/
+

@@ -1,0 +1,4 @@
+export XDG_SESSION_TYPE=wayland
+export XDG_CURRENT_DESKTOP=KDE
+export KDE_FULL_SESSION=true
+export QT_QPA_PLATFORM=wayland

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=GhostX Backup
+Exec=/usr/local/bin/ghostxb
+Icon=drive-harddisk
+Terminal=false
+Categories=Utility;

@@ -1,0 +1,13 @@
+[AC]
+idleTime=0
+suspendWhenIdle=false
+
+[Battery]
+idleTime=0
+suspendWhenIdle=false
+brightness=100
+
+[LowBattery]
+idleTime=0
+suspendWhenIdle=false
+brightness=100
