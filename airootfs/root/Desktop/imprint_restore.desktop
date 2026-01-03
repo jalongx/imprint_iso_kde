@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-Name=GhostX Backup
-Exec=/usr/local/bin/ghostxb
+Name=Imprint Restore
+Exec=/usr/local/bin/imprintr
 Icon=drive-harddisk
 Terminal=false
 Categories=Utility;

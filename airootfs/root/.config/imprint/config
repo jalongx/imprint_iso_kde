@@ -1,0 +1,17 @@
+# ------------------------------------------------------------
+# Imprint User Preferences
+# ------------------------------------------------------------
+# compression=
+#   lz4   - extremely fast, moderate compression (recommended)
+#   zstd  - fast, strong compression
+#   gzip  - slow, legacy compatibility only
+#
+# chunk_size_mb=
+#   0     - disabled (single large image file)
+#   >0    - split compressed output into chunks of this size (MB)
+#           Example: 2048 = 2GB chunks
+# ------------------------------------------------------------
+
+backup_dir=/
+compression=zstd
+chunk_size_mb=4096

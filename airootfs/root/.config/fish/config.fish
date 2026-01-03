@@ -6,8 +6,8 @@ source /root/.config/fish/abbr.fish
 # ---------------------------------------------------------
 # GhostX: ensure binaries are executable
 # ---------------------------------------------------------
-chmod +x /usr/local/bin/ghostxb 2>/dev/null
-chmod +x /usr/local/bin/ghostxr 2>/dev/null
+chmod +x /usr/local/bin/imprintb 2>/dev/null
+chmod +x /usr/local/bin/imprintr 2>/dev/null
 
 # ---------------------------------------------------------
 # Start KDE Plasma Wayland automatically on TTY1
