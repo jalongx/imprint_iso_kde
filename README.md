@@ -64,7 +64,10 @@ If you prefer not to build the ISO yourself, prebuilt images may be available to
 
 The source code and build scripts will always remain free and open.
 Providing prebuilt ISOs simply helps support ongoing development and hardware testing.
-Supporting the Project
+
+---
+
+## Supporting the Project
 
 Imprint and the rescue ISO are developed and maintained by a retired senior on a fixed income.
 If this project helps you, or if you’d like to support continued development toward Imprint 1.0, consider becoming a sponsor.
