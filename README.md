@@ -46,15 +46,14 @@ You can build it yourself using the included scripts.
 git clone https://github.com/jalongx/imprint_iso_kde
 cd imprint_iso_kde
 sudo mkarchiso -v -w work -o out .
+```
 
 The finished ISO will appear in the out/ directory.
 
 ### Notes
 
 - Building must be done as root (required by mkarchiso)
-
 - The build process may take several minutes depending on hardware
-
 - The ISO includes the latest version of Imprint available at build time
 
 ---
@@ -73,11 +72,8 @@ If this project helps you, or if you’d like to support continued development t
 Your support helps fund:
 
 - ongoing maintenance
-
 - hardware compatibility testing
-
 - ISO improvements
-
 - future roadmap features
 
 Thank you for helping keep Imprint sustainable.
@@ -88,6 +84,5 @@ Thank you for helping keep Imprint sustainable.
 
 - Imprint (main project):  
     https://github.com/jalongx/imprint
-
 - Imprint Rescue ISO (this repo):  
     https://github.com/jalongx/imprint_iso_kde
