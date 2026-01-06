@@ -8,7 +8,7 @@ The ISO provides a clean, modern environment with excellent hardware support (in
 
 ## What Is Imprint?
 
-Imprint is a modern, Linux‑native reimagining of the classic Norton Ghost workflow.  
+Imprint is a modern, Linux‑native front-end for partclone that can be used from inside your operating system.
 It provides a clean, safe, and fast way to back up and restore partitions using partclone, with strong integrity guarantees and a simple Zenity‑based UI.
 
 **Main project:**  
@@ -55,31 +55,6 @@ The finished ISO will appear in the out/ directory.
 - Building must be done as root (required by mkarchiso)
 - The build process may take several minutes depending on hardware
 - The ISO includes the latest version of Imprint available at build time
-
----
-
-## Prebuilt ISOs
-
-If you prefer not to build the ISO yourself, prebuilt images may be available to project supporters as a convenience perk.
-
-The source code and build scripts will always remain free and open.
-Providing prebuilt ISOs simply helps support ongoing development and hardware testing.
-
----
-
-## Supporting the Project
-
-Imprint and the rescue ISO are developed and maintained by a retired senior on a fixed income.
-If this project helps you, or if you’d like to support continued development toward Imprint 1.0, consider becoming a sponsor.
-
-Your support helps fund:
-
-- ongoing maintenance
-- hardware compatibility testing
-- ISO improvements
-- future roadmap features
-
-Thank you for helping keep Imprint sustainable.
 
 ---
 
