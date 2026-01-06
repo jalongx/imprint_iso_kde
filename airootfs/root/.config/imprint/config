@@ -14,4 +14,4 @@
 
 backup_dir=/
 compression=zstd
-chunk_size_mb=4096
+chunk_size_mb=0
