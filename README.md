@@ -29,6 +29,10 @@ The rescue ISO in this repository is simply a convenient way to run Imprint on a
 
 ---
 
+<img width="1920" height="1080" alt="imprint_iso_kde-desktop" src="https://github.com/user-attachments/assets/c4ca652f-6eeb-4834-91c4-74ef7cb33d4b" />
+
+---
+
 ## Building the ISO
 
 The ISO is fully open‑source and reproducible.  
