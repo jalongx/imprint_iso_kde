@@ -14,3 +14,4 @@ out/
 # Cache
 .cache/
 
+airootfs/usr/local/bin/mntnas
