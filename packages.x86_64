@@ -150,6 +150,7 @@ kde-gtk-config
 firefox
 fish
 eza
+plasma-systemmonitor
 
 # File Manager + KDE I/O
 dolphin
@@ -243,3 +244,8 @@ haruna
 smplayer
 ffmpeg
 plasma-pa
+
+# Additional touch support
+xf86-input-evdev
+qt5-virtualkeyboard
+libinput-tools
