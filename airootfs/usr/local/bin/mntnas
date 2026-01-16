@@ -1,0 +1,38 @@
+#!/bin/bash
+
+set -e
+
+NAS_IP="10.0.0.117"
+
+SHARES=(
+    "media:/mnt/media"
+    "nas_bkup:/mnt/nas_bkup"
+    "nas_data:/mnt/nas_data"
+)
+
+echo "=== Mounting NAS shares from $NAS_IP ==="
+
+# Ensure mountpoints exist
+for entry in "${SHARES[@]}"; do
+    SHARE="${entry%%:*}"
+    MOUNTPOINT="${entry##*:}"
+
+    if [ ! -d "$MOUNTPOINT" ]; then
+        echo "Creating mountpoint: $MOUNTPOINT"
+        sudo mkdir -p "$MOUNTPOINT"
+    fi
+done
+
+# Try mounting each share
+for entry in "${SHARES[@]}"; do
+    SHARE="${entry%%:*}"
+    MOUNTPOINT="${entry##*:}"
+
+    echo -n "Mounting $SHARE → $MOUNTPOINT ... "
+
+    sudo mount -t nfs -o vers=4.1,rw,noatime,hard,intr,nconnect=4 \
+        "$NAS_IP:/$SHARE" "$MOUNTPOINT" && \
+        echo "OK" || echo "FAILED"
+done
+
+echo "=== Done ==="
