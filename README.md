@@ -39,7 +39,8 @@ Imprint boots reliably on Secure Boot systems when launched through Ventoy.
 
 - Boot Ventoy
 - Enroll Ventoy’s MOK when prompted
-- Select the Imprint ISO
+- Copy the Imprint ISO to the flashdrive data partition
+- Select the Imprint ISO after ventoy has booted
 
 After the MOK is enrolled once, Secure Boot can remain enabled.
 
