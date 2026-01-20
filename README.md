@@ -29,6 +29,32 @@ The rescue ISO in this repository is simply a convenient way to run Imprint on a
 
 ---
 
+## Booting the Rescue ISO
+
+The Imprint Rescue ISO is not Secure Boot–signed. Boot behavior depends on how you launch it:
+
+### Recommended: Ventoy - https://www.ventoy.net
+
+Imprint boots reliably on Secure Boot systems when launched through Ventoy.
+
+- Boot Ventoy
+- Enroll Ventoy’s MOK when prompted
+- Select the Imprint ISO
+
+After the MOK is enrolled once, Secure Boot can remain enabled.
+
+### Direct ISO Boot
+
+Booting an ISO that has been burned directly to a flashdrive will usually fail with Secure Boot enabled.
+To boot directly, you must either:
+
+- Disable Secure Boot, or
+- Manually sign the kernel/initrd and enroll your own MOK
+
+Ventoy is the simplest and supported method.
+
+---
+
 <img width="1920" height="1080" alt="imprint_iso_kde-desktop" src="https://github.com/user-attachments/assets/c4ca652f-6eeb-4834-91c4-74ef7cb33d4b" />
 
 ---
